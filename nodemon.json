@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "node --experimental-fetch --loader ts-node/esm -r reflect-metadata src/index.ts",
+  "ignore": ["src/**/*.spec.ts"]
+}
